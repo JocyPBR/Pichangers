@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#FFFFFF"
+    tools:context=".listadoequipos.ListaEquiposActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Agregar"
+            android:background="#f04ad3ca"
+            android:layout_gravity="right"
+            android:gravity="center"
+            android:layout_marginBottom="10dp"/>
+
+    </LinearLayout>
+
+    <GridView
+        android:id="@+id/gviEquipos"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnWidth="120dp"
+        android:horizontalSpacing="25dp"
+        android:numColumns="2"
+        android:padding="25dp"
+        android:verticalSpacing="25dp"
+        tools:listitem="@layout/item_lista_equipos"/>
+
+</LinearLayout>

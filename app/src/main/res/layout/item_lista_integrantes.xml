@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="#FFFFFF">
+
+    <ImageView
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/soccer"
+        android:layout_weight="1"
+        android:layout_gravity="center"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:paddingLeft="10dp">
+
+        <TextView
+            android:id="@+id/tviNombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jocelyn Becerra"
+            android:textSize="25dp"
+            android:textStyle="normal"
+            android:textColor="#000000"/>
+        <TextView
+            android:id="@+id/tviCodigo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20131602"
+            android:textSize="25dp"
+            android:textStyle="normal"
+            android:textColor="#696969"/>
+    </LinearLayout>
+    <ImageView
+        android:layout_width="8dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:src="@drawable/mas"/>
+</LinearLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="pe.edu.ulima.pc1.InformacionActivity"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/soccer"/>
+            <TextView
+                android:paddingLeft="10dp"
+                android:id="@+id/tviNombreEquipo"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textStyle="normal"
+                android:textSize="25dp"
+                android:text="Equipo 1"/>
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/eteEquipo"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/equipo"/>
+        <TextView
+            android:id="@+id/tviVictoria"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textStyle="normal"
+            android:textSize="20dp"
+            android:text="Partidos ganado: 20"/>
+
+        <TextView
+            android:id="@+id/tviDerrota"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textStyle="normal"
+            android:textSize="20dp"
+            android:text="Partidos perdidos: 5"/>
+
+    </LinearLayout>
+
+</LinearLayout>
